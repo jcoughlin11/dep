@@ -36,8 +36,10 @@ include_directories(${DEP_INC})
 add_library(foo SHARED ${DEP_SRC})
 
 
-install(
-    TARGETS foo
-    LIBRARY
-    DESTINATION ${DEP_INSTALL} 
-)
+if(TARGET foo)
+    install(
+        TARGETS foo
+        LIBRARY
+        DESTINATION ${DEP_INSTALL} 
+    )
+endif()
