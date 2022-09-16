@@ -24,7 +24,7 @@ set(
 
 set(
     DEP_BIN
-    ${CMAKE_CURRENT_SOURCE_DIR}/bin/
+    $ENV{HOME}/.dephy/lib
 )
 
 
