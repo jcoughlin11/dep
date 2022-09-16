@@ -23,7 +23,7 @@ set(
 )
 
 set(
-    DEP_BIN
+    DEP_INSTALL
     $ENV{HOME}/.dephy/lib
 )
 
@@ -39,5 +39,5 @@ add_library(foo SHARED ${DEP_SRC})
 install(
     TARGETS foo
     LIBRARY
-    DESTINATION ${DEP_BIN} 
+    DESTINATION ${DEP_INSTALL} 
 )
