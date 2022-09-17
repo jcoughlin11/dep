@@ -24,7 +24,7 @@ set(
 
 set(
     DEP_INSTALL
-    $ENV{HOME}/.dephy/lib
+    $ENV{HOME}/Code/sandbox/cmake/install
 )
 
 
