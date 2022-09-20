@@ -21,8 +21,7 @@ set(
 message("Setting dep includes...")
 set(
     DEP_INC
-    ${CMAKE_CURRENT_SOURCE_DIR}/inc/greet
-    ${CMAKE_CURRENT_SOURCE_DIR}/inc/goodbye
+    ${CMAKE_CURRENT_SOURCE_DIR}/inc
 )
 
 message("Setting dep install dir...")

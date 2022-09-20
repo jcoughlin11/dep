@@ -1,7 +1,7 @@
 #include <iostream>
 
-#include "goodbye.hpp"
-#include "greet.hpp"
+#include "goodbye/goodbye.hpp"
+#include "greet/greet.hpp"
 
 
 void greet(void)
